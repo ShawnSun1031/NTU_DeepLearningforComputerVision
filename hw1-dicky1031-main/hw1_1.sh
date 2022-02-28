@@ -1,0 +1,2 @@
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1zd4QkFNuGQ9IQ_4l5whIN3Yu6r2mO6No' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1zd4QkFNuGQ9IQ_4l5whIN3Yu6r2mO6No" -O hw1_1_model.pth && rm -rf /tmp/cookies.txt
+python3 hw1_1.py $1 $2

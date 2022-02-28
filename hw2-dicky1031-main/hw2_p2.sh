@@ -1,0 +1,1 @@
+python3 hw2_2_inference.py $1 

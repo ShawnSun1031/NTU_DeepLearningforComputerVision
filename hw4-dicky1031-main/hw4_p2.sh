@@ -1,0 +1,1 @@
+python3 hw4_p2_inference.py $1 $2 $3
