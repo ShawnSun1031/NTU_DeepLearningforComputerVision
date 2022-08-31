@@ -8,9 +8,9 @@ bash get_test_csv.sh
 > ***And you will get our final result "merge_yolos_clf_test.csv"***  
 > ***The bash details is under below.***
 
-<details>
-  <summary>Bash Details</summary>
- 
+
+## Bash Details
+ ---
 ## Download Dataset
 
 ```
@@ -87,4 +87,4 @@ bash get_dataset.sh
     python3 for_students_eval.py --pred_file pred/merge_yolos_clf_test.csv --gt_file 
 ### check best f1 is 0.709
 ### End of Inference Part
-</details>
+
